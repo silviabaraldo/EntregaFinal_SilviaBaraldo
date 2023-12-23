@@ -22,8 +22,3 @@ Including another URLconf
 
 path("AppRenACar/", include("AppRentACar.urls"))
 
-path("", views.inicio) 
-path("pasajero", views.pasajero, name= "Pasajero"),
-path("chofer", views.chofer),
-path("viaje", views.viaje)
-path("show/", show_html),
