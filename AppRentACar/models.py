@@ -13,9 +13,9 @@ class Pasajero(models.Model):
 class Chofer(models.Model):
         nombre=models.CharField (max_length=20)
         apellido=models.CharField(max_length=20)
-        unidadl=models.CharField
+        unidad=models.CharField
 
-class Viaje(models.Model):
+class Viaje2(models.Model):
         Destino=models.CharField (max_length=40)
         Costo=models.CharField(max_length=20)
         Encuesta=models.CharField

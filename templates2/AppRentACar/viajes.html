@@ -1,0 +1,9 @@
+{% extends'base.html' %}
+
+{% block cambio %}  
+    {% for viaje in viajes %} 
+    <h6> El viaje es  {{viaje.nombre}} con nombre de categoria {{viaje.categoria}}</h6>
+    
+    {% endfor %}     
+
+ {% endblock %}   

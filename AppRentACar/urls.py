@@ -1,7 +1,10 @@
 
 from django.urls import include, path
 from AppRentACar import views
+from AppRACForms import views
 from AppRentACar.views import show_html
+from AppRentACar.views import mostrar_viajes
+
 """
 URL configuration for TerceraEntrega_SilviaBaraldo project.
 
@@ -20,5 +23,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 
-path("AppRenACar/", include("AppRentACar.urls"))
-
+path('app/',include("AppRentACar.urls")),
+path('app/',include("AppRACForms.urls")),
+path("",views.inicio), 
+path('pasajero',views.pasajero,name="Pasajero"),
+path('chofer', views.chofer),
+path('viaje', views.viaje),
+path('show/', show_html),
+path ('viajes', mostrar_viajes)

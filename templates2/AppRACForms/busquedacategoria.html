@@ -1,0 +1,31 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+{% extends'base.html' %}
+
+{% block cambio %}  
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title> <b>Ingrese el la categoría que desea buscar</b></title>
+</head>
+<body>
+               
+{% if miformulario.errors %}
+
+<p style="color: red;"> Datos erroneos </p> 
+
+{% endif %}   
+
+<form action="AppRACform/buscar" method= "GET"> 
+      <input type="chartField", name="categoría">  
+      <input type="submit", value="Buscar">  
+
+</form>                     
+</body>
+{% endblock %}   
+</html> 

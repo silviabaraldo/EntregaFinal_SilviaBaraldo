@@ -1,0 +1,41 @@
+
+
+{% extends'base.html' %}
+
+{% block cambio %}  
+
+ {% endblock %}   
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title> <b>Formulario - Agregar Pasajero</b></title>
+</head>
+<body>
+
+<form action="/rentacarformulario/" method="post">
+               <p>Nombre: <input type="text" name="nombre"></p>
+               <p>Apellido: <input type="text" name="apellido"></p>
+               <p>Email: <input type="text" name="email"></p>
+               <input type="submit" value="Enviar">
+</form>                     
+</body>
+<!DOCTYPE html>
+<html lang="en">
+               
+{% endblock %}  
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title> <b>Formulario - Agregar Chofer</b></title>
+</head>
+<body>
+
+<form action="/rentacarformulariopasajero/" method="post">{% csrf_token %}
+               <p>Nombre: <input type="text" name="nombre"></p>
+               <p>Apellido: <input type="text" name="apellido"></p>
+               <p>email: <input type="text" name="email"></p>
+               <input type="submit" value="Enviar">
+</form>                     
+</body>

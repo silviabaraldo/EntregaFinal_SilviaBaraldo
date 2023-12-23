@@ -1,0 +1,36 @@
+{
+
+
+
+
+<!DOCTYPE html>
+% extends'base.html' %}
+
+{% block cambio %}  
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title> <b>Búsqueda el apellido</b></title>
+</head>
+<body>
+               
+      <p> Busco el apellido: {{apellido}} </p> 
+
+      {% if chofer %}
+      
+      <ul> 
+      {% for chofer in chofer %}
+      <li>{{chofer.apellido}}  </li>
+      
+      {% endfor %}   </ul> 
+      {% endif %} 
+
+<form action="AppRACform/buscar" method= "GET"> 
+      <input type="chartField", name="apellido">  
+      <input type="submit", value="Buscar">  
+
+</form>                     
+</body>
+{% endblock %}   
+</html> 
