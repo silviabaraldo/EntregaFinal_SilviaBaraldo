@@ -1,12 +1,10 @@
-# TerceraEntrega_SilviaBaraldo
+Entrega Final 
 
-Para el desarrollo de los modelos utilicé las clases que había creado en la segunda entrega. 
-No tuve dificultad para armar la estructura y corregir errores en la construcción, me fui guiando por las advertencias de python, y algunas errores de sintaxis que ya voy detectando. 
+Pude finalmente, con una versión de escritorio de Git Hub que encontré, subir el proyecto. 
 
-Tuve, y sigo teniendo dificultad para pasar a la vista de la web. En los primeros pasos hasta las primeras vistas me funciono bien, luego me da error y ya no levanta.
+En cuanto al proyecto pude trabajar toda la estructura, utilizando 2 apps, una para los forms y otra para el resto del blog. 
+Trabajé los htmls pedidos, pero no logré ver la página en el servidor (el local host de Django 127.0.0.1:800). Los primeros avances del proyectos los fui viendo, luego no me levanto más, me da error  "No se puede acceder a este sitio webLa página 127.0.0.1 ha rechazado la conexión"
 
-Pude construir la base con sqlite y trabajarla dentro de visual studio a diferencia del browser que se sugería en las filminas, no sé si es lo correcto.
+Sé que faltan cosas como trabajar el html del about, el video de navegación y algunas más, quedé enredada en resolver y ajustar y no llegué. Espero su feedback para entender si los errores fueron de sintaxis, me faltó algo, o simplemente fue falta de experiencia y tiempo. 
 
-
-
-
+muchas gracias
